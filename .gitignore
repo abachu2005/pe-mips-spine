@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+study/data/
+study/cohort/
+study/results/
+affiliation_index/

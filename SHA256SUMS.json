@@ -1,0 +1,82 @@
+{
+  ".gitignore": {
+    "bytes": 86,
+    "sha256": "34fdba014a288e59b1e06cf187ca464172a68db42a808fb7e3dd00993785ee7d"
+  },
+  "INPUT_SCHEMAS.json": {
+    "bytes": 2169,
+    "sha256": "1f8716657fe32000b23e2b2d30961009d347e823574b4974a1d452dae4e4dcce"
+  },
+  "README.md": {
+    "bytes": 1952,
+    "sha256": "c9c5ae831ffb132e2cc4b316e14291f56f77ba21f8dc1ddc316f3fe9c7d4606d"
+  },
+  "config/procedure_codes.json": {
+    "bytes": 7273,
+    "sha256": "5380836f58b7b7b574c963216f3bced3ac4749c61d35adb625e7dbc05d1184bd"
+  },
+  "expected/baseline_characteristics.csv": {
+    "bytes": 311,
+    "sha256": "a0d23a1dfc981452f0ccc26212d87d8b970616d958292ef96d9ab7e21a5242da"
+  },
+  "expected/cell_weights.csv": {
+    "bytes": 1383,
+    "sha256": "8d3b7d42156ccf8adbbbe3c9c1f00cf6a188af14f622c8dd59e3145c233a8dce"
+  },
+  "expected/cohort_flow.csv": {
+    "bytes": 217,
+    "sha256": "c4c55fdb0303988fbc1bf3e654d95241631e9cbf6d213c52b6981cbc01ead068"
+  },
+  "expected/distinct_and_reused_units.csv": {
+    "bytes": 76,
+    "sha256": "d8ffa264666fa8f3c7054a2b9c48f051d4ab937fbf372f6531294bf524469416"
+  },
+  "expected/event_study.csv": {
+    "bytes": 519,
+    "sha256": "c3251c092d941c17b6b7927e37ff6ec5fd986f3d34cff59391e2d3fcb0701076"
+  },
+  "expected/primary_estimate.csv": {
+    "bytes": 278,
+    "sha256": "65c6b9c6d6e5cc9afdfe49508c58d65e378f886308236289e477e1d99b462660"
+  },
+  "expected/reference_results.json": {
+    "bytes": 3424,
+    "sha256": "fc580be71557ce1e6173e7fbd1b42df450434078268fc01d34b86bc3c864c350"
+  },
+  "expected/trajectories_support.csv": {
+    "bytes": 617,
+    "sha256": "9e3ef7958e97653b2540848947d6e589e3b604c34b93a7ca07cec3c1e9de58f4"
+  },
+  "requirements.txt": {
+    "bytes": 46,
+    "sha256": "57b5165d5e0dbd8521a5b877ce90ca122c353160c986b5370ca5a118d3970bd3"
+  },
+  "run_analysis.py": {
+    "bytes": 9016,
+    "sha256": "f21c1af798f4fe20998491bf3805ba119bf9a75900c1b6ab81e3c591111bcf62"
+  },
+  "study/analysis/did.py": {
+    "bytes": 6529,
+    "sha256": "598ed43512c11820679c7db31d2f9302a110d2ed90307bc262a911eb814697eb"
+  },
+  "study/analysis/estimators.py": {
+    "bytes": 2624,
+    "sha256": "57e4c6895bbd275226b69a78c47d19e8d1ce1d63124cf09e3504d566a988fe17"
+  },
+  "study/scripts/build_cohort.py": {
+    "bytes": 10478,
+    "sha256": "2ea9118248051a029666b087f212e99def20d6c1fcee286c476f96a4164c2f03"
+  },
+  "study/scripts/scope.py": {
+    "bytes": 350,
+    "sha256": "7f912dd0486a367a6e53510a90cf68e5f324965083888ef1f53305d12f80b6b2"
+  },
+  "verification/numerical_reproduction.json": {
+    "bytes": 185,
+    "sha256": "8a6e02947f5e85da381bd888b8e064849d1b73bcfb77dfffdb8260e34b322349"
+  },
+  "verify_outputs.py": {
+    "bytes": 1061,
+    "sha256": "3cfc7c7d234af166a72b8621d8853e41eea1dbf37b1181c3f2da19b270a7bf43"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "numeric_result_entries": 92,
+  "aggregate_tables": 7,
+  "absolute_and_relative_tolerance": 1e-09,
+  "full_input_reproduction": "passed",
+  "public_script_reproduction": "passed"
+}
