@@ -1,4 +1,4 @@
-"""One spine-only stacked final-score model and its event-study coefficients."""
+"""Primary spine cohort final-score model and event-study coefficients."""
 from pathlib import Path
 from collections import defaultdict, Counter
 import csv
@@ -61,7 +61,7 @@ def main():
     assert np.isfinite(stack["y"]).all() and np.isfinite(stack["weight"]).all()
     assert (stack["weight"]>0).all()
     result={"definition":"Neurosurgery/orthopedic surgery with a reported spine operative-code row in a calendar year strictly before acquisition year; comparisons assessed at each cell's event year.",
-            "analysis":"Single weighted stacked difference-in-differences model of final score; event interactions describe event timing, not alternative cohort sensitivities.",
+            "analysis":"Primary weighted stacked difference-in-differences model of final score with event-time interactions.",
             "primary":did.pooled(stack),"event_study":did.event_study(stack),
             "selection_limit":"Spine-service baseline ascertainment spans 2013–2022. Suppressed low-volume billing cannot qualify. Some clinical spine surgeons are unascertained; MIPS final-score performance data span 2017–2024.",
             "prestate_rule":"Comparators: modal state in qualifying pre-event spine service rows, lexicographic tie break. Acquired: transaction state.",
