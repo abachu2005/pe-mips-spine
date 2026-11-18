@@ -2,13 +2,11 @@
 
 Research code for *Private Equity Acquisition and Performance in the Merit-Based Incentive Payment System Among Spine Surgeons*.
 
-## Study
-Neurosurgeons and orthopedic surgeons qualify through a published operative spine-service record in a calendar year preceding acquisition. Service ascertainment spans 2013–2022; MIPS performance spans 2017–2024. The primary analysis fits a weighted stacked difference-in-differences model of MIPS final score and an event study in the same cohort. Supporting analyses examine quality score, positive payment adjustment, specialty-specific estimates, baseline balance, seven robustness checks, parent-organization omissions, and complete follow-up. The code list is in `config/procedure_codes.json`.
+The study includes 127 acquired surgeons across 24 parent organizations and 2,258 distinct comparison surgeons. The primary weighted stacked difference-in-differences estimate is 4.71 MIPS points (95% CI 0.17–9.25; P=.043). Service ascertainment spans 2013–2022 and performance ascertainment spans 2017–2024. Both surgical specialties require documented operative spine billing before acquisition.
 
-## Setup and execution
-Use Python 3.12. Install dependencies with `python -m pip install -r requirements.txt`.
+## Reproduction
 
-Supply the authorized inputs described in `INPUT_SCHEMAS.json`, then run:
+Use Python 3.12 and install `requirements.txt`. Supply the authorized prepared model inputs described in `INPUT_SCHEMAS.json`, then run:
 
 ```sh
 python run_analysis.py
@@ -16,13 +14,14 @@ python run_supporting.py
 python verify_outputs.py
 ```
 
-`study/scripts/` constructs the cohort; `study/analysis/` fits the model. `run_supporting.py` runs the secondary and robustness analyses with the same operative eligibility. Results are written to `study/results/`. `expected/` contains aggregate reference outputs. `verification/` summarizes numerical reproduction. The verification script compares numeric outputs with tolerance 1e-9. No patient- or clinician-level source files are included.
+The prepared primary stack and supporting context are available from the corresponding author on reasonable request, subject to source terms. These runners reproduce model fitting from the prepared inputs. They do not download the national CMS files or reconstruct the transaction and affiliation ledger from proprietary records.
 
-## Inputs and access
-CMS provider/service, performance, and affiliation files are available from CMS subject to source terms. The professional-affiliation index, transaction decisions, and organization-matching inputs require appropriate source access. Input schemas document file structure; they do not provide those restricted records. Exact cohort reproduction requires the authorized inputs. No source-data redistribution rights are granted by this release.
+`analysis/` implements the fixed effects, comparison weights, and practice-cluster CR1/t inference. Supporting analyses cover five secondary outcomes, specialty-specific estimates and a pooled interaction, baseline balance and missingness, thirteen robustness comparisons, and all parent omissions. Each restriction reconstructs eligibility and weights. The operative code list is in `config/`. Aggregate reference outputs are in `expected/`; generated outputs are written to `results/`. Verification compares numerical results at absolute tolerance 1e-9.
 
-## Software rights
-Software remains subject to the authors’ applicable rights. This repository does not grant a license to redistribute restricted source data.
+## Data access
+
+CMS provider/service, performance, and affiliation data are publicly available subject to source terms. Transaction decisions and the professional-affiliation index require appropriate access. This repository distributes research software, schemas, and aggregate results. It does not redistribute clinician-level source records, model arrays, licensed transaction material, or third-party affiliation data. No source-data redistribution rights are granted by this release.
 
 ## Citation
+
 Bachu A, Rajesh R, Germanwala A. Private Equity Acquisition and Performance in the Merit-Based Incentive Payment System Among Spine Surgeons. Analysis code. 2026.

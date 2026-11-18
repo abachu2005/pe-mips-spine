@@ -4,6 +4,11 @@ import math
 import numpy as np
 from scipy import stats
 
+DRAWS = 9999
+SEED = 20261021
+WEBB = np.array([-math.sqrt(1.5), -1.0, -math.sqrt(0.5), math.sqrt(0.5), 1.0, math.sqrt(1.5)])
+
+
 def codes(values):
     _, inverse = np.unique(np.asarray(values).astype(str), return_inverse=True)
     return inverse

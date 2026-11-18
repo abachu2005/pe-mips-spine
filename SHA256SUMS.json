@@ -1,114 +1,22 @@
 {
-  ".gitignore": {
-    "bytes": 86,
-    "sha256": "34fdba014a288e59b1e06cf187ca464172a68db42a808fb7e3dd00993785ee7d"
-  },
-  "INPUT_SCHEMAS.json": {
-    "bytes": 2169,
-    "sha256": "1f8716657fe32000b23e2b2d30961009d347e823574b4974a1d452dae4e4dcce"
-  },
-  "README.md": {
-    "bytes": 2285,
-    "sha256": "59d31e661caa24f2bcd92d577ebc1e27e52513f60db88f9cf8c11c6857222b97"
-  },
-  "config/procedure_codes.json": {
-    "bytes": 7273,
-    "sha256": "5380836f58b7b7b574c963216f3bced3ac4749c61d35adb625e7dbc05d1184bd"
-  },
-  "expected/baseline_characteristics.csv": {
-    "bytes": 311,
-    "sha256": "a0d23a1dfc981452f0ccc26212d87d8b970616d958292ef96d9ab7e21a5242da"
-  },
-  "expected/cell_weights.csv": {
-    "bytes": 1383,
-    "sha256": "8d3b7d42156ccf8adbbbe3c9c1f00cf6a188af14f622c8dd59e3145c233a8dce"
-  },
-  "expected/cohort_flow.csv": {
-    "bytes": 217,
-    "sha256": "c4c55fdb0303988fbc1bf3e654d95241631e9cbf6d213c52b6981cbc01ead068"
-  },
-  "expected/distinct_and_reused_units.csv": {
-    "bytes": 76,
-    "sha256": "d8ffa264666fa8f3c7054a2b9c48f051d4ab937fbf372f6531294bf524469416"
-  },
-  "expected/event_study.csv": {
-    "bytes": 519,
-    "sha256": "c3251c092d941c17b6b7927e37ff6ec5fd986f3d34cff59391e2d3fcb0701076"
-  },
-  "expected/primary_estimate.csv": {
-    "bytes": 278,
-    "sha256": "65c6b9c6d6e5cc9afdfe49508c58d65e378f886308236289e477e1d99b462660"
-  },
-  "expected/reference_results.json": {
-    "bytes": 3424,
-    "sha256": "fc580be71557ce1e6173e7fbd1b42df450434078268fc01d34b86bc3c864c350"
-  },
-  "expected/supporting/baseline_balance.csv": {
-    "bytes": 1703,
-    "sha256": "785783a02eb1bcab8dd46e96c890afcf59282c24b0be24798af8b4f1640432de"
-  },
-  "expected/supporting/complete_followup.csv": {
-    "bytes": 655,
-    "sha256": "f8542efaec532b70df8e76be5ba9c66a99d5f1a3f3ca2e483ddf0f2cef13cf6b"
-  },
-  "expected/supporting/parent_omission.csv": {
-    "bytes": 3390,
-    "sha256": "cf6a68eefb0ba8e4f3347300653e8dc52984c9143959775c6d1ecec8004495be"
-  },
-  "expected/supporting/robustness.csv": {
-    "bytes": 1200,
-    "sha256": "8a265024f09066bc4e1c99a84fa5571ec7198e58ea1fb5c2e96eb24bf9fd0474"
-  },
-  "expected/supporting/secondary.csv": {
-    "bytes": 450,
-    "sha256": "a3628e30a02e0b1438337bd6a44b08a122079c1b07fe39ecd875c22933222477"
-  },
-  "expected/supporting/specialty.csv": {
-    "bytes": 432,
-    "sha256": "526cb3af552aa8e85ac23f7639f97383a690d41624021635f71b379d1320e1ca"
-  },
-  "expected/supporting/supporting_results.json": {
-    "bytes": 39908,
-    "sha256": "bf287e4ae0e9183138c005097b7074ebd2770cd9e08493345d549d4a76a8110c"
-  },
-  "expected/trajectories_support.csv": {
-    "bytes": 617,
-    "sha256": "9e3ef7958e97653b2540848947d6e589e3b604c34b93a7ca07cec3c1e9de58f4"
-  },
-  "requirements.txt": {
-    "bytes": 46,
-    "sha256": "57b5165d5e0dbd8521a5b877ce90ca122c353160c986b5370ca5a118d3970bd3"
-  },
-  "run_analysis.py": {
-    "bytes": 8960,
-    "sha256": "09abb2175a6dd9e086d3bf5e986172af9e6cc6652d98578ce790fb1eace50814"
-  },
-  "run_supporting.py": {
-    "bytes": 8952,
-    "sha256": "63baef238528e112a1b48f72ee930ec0778cf9e7f5f9662263a56f59dbf6805f"
-  },
-  "study/analysis/did.py": {
-    "bytes": 6529,
-    "sha256": "598ed43512c11820679c7db31d2f9302a110d2ed90307bc262a911eb814697eb"
-  },
-  "study/analysis/estimators.py": {
-    "bytes": 2624,
-    "sha256": "57e4c6895bbd275226b69a78c47d19e8d1ce1d63124cf09e3504d566a988fe17"
-  },
-  "study/scripts/build_cohort.py": {
-    "bytes": 10478,
-    "sha256": "2ea9118248051a029666b087f212e99def20d6c1fcee286c476f96a4164c2f03"
-  },
-  "study/scripts/scope.py": {
-    "bytes": 350,
-    "sha256": "7f912dd0486a367a6e53510a90cf68e5f324965083888ef1f53305d12f80b6b2"
-  },
-  "verification/numerical_reproduction.json": {
-    "bytes": 302,
-    "sha256": "7dc52c5653e7317f1c1d8509173285204ab763f3e170a40615b959b83dd5a56c"
-  },
-  "verify_outputs.py": {
-    "bytes": 1234,
-    "sha256": "9f9d675a4044dfa39d3d12af0db953d7e85eac35c9748b073c21eefb79267e52"
-  }
+  "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+  "run_supporting.py": "650ac92912fde2cd3566c7e01b5577dd32df75172bba86c0a50ef021dba59820",
+  "INPUT_SCHEMAS.json": "a41bee62ff19b990705b2569e2e304d6a345450683891ecfd1548ea471a0fb02",
+  "verify_outputs.py": "4d20fd997ea7bf7f1af012a3b80c1e6f773a867c47fd2f398a3d38678ea7ff6f",
+  "run_analysis.py": "d4a7b59907cce4890c3f1df1b7f028966d1feec336c1f7344dc1322ea4c0a77d",
+  "README.md": "9378d2f6440cdaa581c2143a961915ecd8dc2b53968e533e585bdb7c335bc8f1",
+  "analysis/scope.py": "682c86f89c6685f191151510d6f1fdb96f2c04a6bc79b90aad356c83accbd142",
+  "analysis/estimators.py": "f964a0bb793abc89f13bdc3bce519ccd817fc33dad2bb5fa74d03a45bcca94d8",
+  "analysis/did.py": "598ed43512c11820679c7db31d2f9302a110d2ed90307bc262a911eb814697eb",
+  "config/procedure_codes.json": "5380836f58b7b7b574c963216f3bced3ac4749c61d35adb625e7dbc05d1184bd",
+  "expected/event_study.csv": "3affc8bd17566774bdcfe426f46817daade5103e8a2dd476538233afb3071b95",
+  "expected/trajectories_and_support.csv": "db8336243d679df2801a698b094896c7ca905fd4a1a206735dde6bf06ba5ba77",
+  "expected/analysis_results.json": "420ac4ff7d27f0aee988a3db39abf7ea0be58cd7d29c33ee0980417827b62fc5",
+  "expected/supporting/supplemental_results.json": "90f60337e3e1e31abbffa2fb0ed0f35b7a07b34aafab57a4429ddece42b1658d",
+  "expected/supporting/specialty.csv": "99f188636614808bb3e1a3cc97d03365c0355b310267b6ddd90d517a3d670037",
+  "expected/supporting/secondary.csv": "cd7ca6d444e61c901c7e5a8f17ffa194239ee65b1979301010c5ccc0201a5bfc",
+  "expected/supporting/balance_table.csv": "6e00aee61bb0e043d9460929c87c3e30972b1e44eedbfdaad81212df242625ba",
+  "expected/supporting/all_estimates.csv": "2ce6089b969365261655c9bbf44d64d84b86f71971dd1f247931cf1d4a1a9b41",
+  "expected/supporting/robustness.csv": "b36ffe3c6dc2af3c224b065cc048ef7c560be17e1b5b5b3abede99e47f62d14a",
+  "expected/supporting/leave_one_parent_out.csv": "e1253cae89f92c4e3a6ed98a6966109467cb737c54cd4ebbebb87482d5c125e5"
 }

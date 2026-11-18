@@ -1,8 +1,0 @@
-{
-  "numeric_result_entries": 1013,
-  "aggregate_tables": 13,
-  "absolute_and_relative_tolerance": 1e-09,
-  "primary_analysis_reproduction": "passed",
-  "supporting_analyses_reproduction": "passed",
-  "operative_eligibility": "Required before the relevant event for both specialties in every model."
-}

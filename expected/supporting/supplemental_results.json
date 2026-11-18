@@ -1,0 +1,1773 @@
+{
+  "primary": {
+    "status": "estimated",
+    "counts": {
+      "exposed_surgeons": 127,
+      "exposed_practices": 24,
+      "exposed_neurosurgeons": 33,
+      "comparison_surgeons": 2258,
+      "comparison_cell_units": 4098,
+      "cells": 45,
+      "observations": 25719
+    },
+    "estimate": {
+      "estimate": 4.708401591942057,
+      "se": 2.1949064135732286,
+      "df": 23,
+      "ci": [
+        0.1678917353462186,
+        9.248911448537896
+      ],
+      "p": 0.04273161706652417,
+      "treated_clusters": 24,
+      "clusters": 1083
+    },
+    "group_means": {
+      "exposed": {
+        "surgeons": 127,
+        "pre_mean": 79.91715879265094,
+        "post_mean": 84.11164698162729,
+        "change": 4.194488188976379
+      },
+      "comparison": {
+        "surgeons": 4098,
+        "pre_mean": 81.48293664829657,
+        "post_mean": 80.25794701936414,
+        "change": -1.2249896289324358
+      }
+    }
+  },
+  "secondary": {
+    "quality_score": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 127,
+        "exposed_practices": 24,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25719
+      },
+      "estimate": {
+        "estimate": -0.12193541772574966,
+        "se": 5.2479483878386315,
+        "df": 23,
+        "ci": [
+          -10.978143789314512,
+          10.734272953863012
+        ],
+        "p": 0.9816633289129059,
+        "treated_clusters": 24,
+        "clusters": 1083
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 127,
+          "pre_mean": 68.99160104986879,
+          "post_mean": 57.582263779527544,
+          "change": -11.40933727034121
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 73.29287769016793,
+          "post_mean": 61.31858924390472,
+          "change": -11.974288446263223
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "positive_adjustment": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 127,
+        "exposed_practices": 24,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25719
+      },
+      "estimate": {
+        "estimate": 5.553467509950806,
+        "se": 4.6058167757415465,
+        "df": 23,
+        "ci": [
+          -3.9743904153826684,
+          15.081325435284281
+        ],
+        "p": 0.24017176699097448,
+        "treated_clusters": 24,
+        "clusters": 1083
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 127,
+          "pre_mean": 79.46194225721786,
+          "post_mean": 76.44356955380577,
+          "change": -3.018372703412073
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 83.81276079978444,
+          "post_mean": 74.14350186006119,
+          "change": -9.669258939723234
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "pi_score": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 127,
+        "exposed_practices": 24,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25719
+      },
+      "estimate": {
+        "estimate": 6.1804951857791774,
+        "se": 6.145990660709922,
+        "df": 23,
+        "ci": [
+          -6.533455168062799,
+          18.894445539621152
+        ],
+        "p": 0.3250643550053918,
+        "treated_clusters": 24,
+        "clusters": 1083
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 127,
+          "pre_mean": 62.601594488188965,
+          "post_mean": 69.20818897637795,
+          "change": 6.606594488188975
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 66.576349005368,
+          "post_mean": 66.52186575344902,
+          "change": -0.05448325191897864
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "ia_score": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 127,
+        "exposed_practices": 24,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25719
+      },
+      "estimate": {
+        "estimate": -0.14819426485220205,
+        "se": 2.0300689340074536,
+        "df": 23,
+        "ci": [
+          -4.347711814862006,
+          4.051323285157602
+        ],
+        "p": 0.942437552779621,
+        "treated_clusters": 24,
+        "clusters": 1083
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 127,
+          "pre_mean": 34.38320209973754,
+          "post_mean": 33.097112860892395,
+          "change": -1.286089238845144
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 34.67199121526345,
+          "post_mean": 33.242071624483515,
+          "change": -1.4299195907799391
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "cost_score": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 111,
+        "exposed_practices": 21,
+        "exposed_neurosurgeons": 23,
+        "comparison_surgeons": 1812,
+        "comparison_cell_units": 3284,
+        "cells": 38,
+        "observations": 19904
+      },
+      "estimate": {
+        "estimate": 0.9425090647018675,
+        "se": 4.022698851266671,
+        "df": 20,
+        "ci": [
+          -7.448693698398787,
+          9.333711827802523
+        ],
+        "p": 0.8171357071487377,
+        "treated_clusters": 21,
+        "clusters": 877
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 111,
+          "pre_mean": 17.265302702702705,
+          "post_mean": 35.32852222222222,
+          "change": 18.063219519519517
+        },
+        "comparison": {
+          "surgeons": 3284,
+          "pre_mean": 20.994532607954497,
+          "post_mean": 38.62527607821884,
+          "change": 17.630743470264342
+        }
+      },
+      "p_holm_within_family": 1.0
+    }
+  },
+  "specialty": {
+    "neurosurgery": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 33,
+        "exposed_practices": 12,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 735,
+        "comparison_cell_units": 867,
+        "cells": 16,
+        "observations": 5261
+      },
+      "estimate": {
+        "estimate": -0.6518169571077852,
+        "se": 3.9114633671065895,
+        "df": 11,
+        "ci": [
+          -9.260889782351462,
+          7.957255868135892
+        ],
+        "p": 0.8706748828766746,
+        "treated_clusters": 12,
+        "clusters": 389
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 33,
+          "pre_mean": 86.25338383838385,
+          "post_mean": 86.02729797979799,
+          "change": -0.22608585858585664
+        },
+        "comparison": {
+          "surgeons": 867,
+          "pre_mean": 80.28874651924798,
+          "post_mean": 81.23056995643799,
+          "change": 0.9418234371900205
+        }
+      },
+      "p_holm_within_family": 0.8706748828766746
+    },
+    "orthopedic_spine": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 94,
+        "exposed_practices": 20,
+        "exposed_neurosurgeons": 0,
+        "comparison_surgeons": 777,
+        "comparison_cell_units": 1358,
+        "cells": 35,
+        "observations": 9074
+      },
+      "estimate": {
+        "estimate": 6.542569423015632,
+        "se": 2.1404997196322175,
+        "df": 19,
+        "ci": [
+          2.0624520213711595,
+          11.022686824660104
+        ],
+        "p": 0.006493570512728413,
+        "treated_clusters": 20,
+        "clusters": 454
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 94,
+          "pre_mean": 77.69273936170212,
+          "post_mean": 83.43913120567376,
+          "change": 5.746391843971631
+        },
+        "comparison": {
+          "surgeons": 1358,
+          "pre_mean": 80.54471214659705,
+          "post_mean": 78.75118472328349,
+          "change": -1.7935274233135563
+        }
+      },
+      "p_holm_within_family": 0.012987141025456827
+    }
+  },
+  "robustness": {
+    "exclude_2017": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 111,
+        "exposed_practices": 21,
+        "exposed_neurosurgeons": 23,
+        "comparison_surgeons": 1812,
+        "comparison_cell_units": 3284,
+        "cells": 38,
+        "observations": 19904
+      },
+      "estimate": {
+        "estimate": 6.366617517517155,
+        "se": 2.003389976264655,
+        "df": 20,
+        "ci": [
+          2.1876192564102572,
+          10.545615778624054
+        ],
+        "p": 0.004728416716010224,
+        "treated_clusters": 21,
+        "clusters": 877
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 111,
+          "pre_mean": 80.16322822822823,
+          "post_mean": 83.65703453453452,
+          "change": 3.493806306306307
+        },
+        "comparison": {
+          "surgeons": 3284,
+          "pre_mean": 83.12653093364206,
+          "post_mean": 79.55823797159603,
+          "change": -3.5682929620460233
+        }
+      },
+      "p_holm_within_family": 0.06146941730813291
+    },
+    "exclude_2020_2021_and_hardship": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 76,
+        "exposed_practices": 16,
+        "exposed_neurosurgeons": 20,
+        "comparison_surgeons": 1485,
+        "comparison_cell_units": 2221,
+        "cells": 31,
+        "observations": 9190
+      },
+      "estimate": {
+        "estimate": 2.5853679507716247,
+        "se": 3.192021201147776,
+        "df": 15,
+        "ci": [
+          -4.218264187831973,
+          9.389000089375223
+        ],
+        "p": 0.4306329863410798,
+        "treated_clusters": 16,
+        "clusters": 726
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 76,
+          "pre_mean": 78.65410087719297,
+          "post_mean": 79.83725877192983,
+          "change": 1.1831578947368444
+        },
+        "comparison": {
+          "surgeons": 2221,
+          "pre_mean": 82.37513719542623,
+          "post_mean": 78.94743498840703,
+          "change": -3.4277022070191974
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "individual_reporting_only": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 25,
+        "exposed_practices": 10,
+        "exposed_neurosurgeons": 8,
+        "comparison_surgeons": 265,
+        "comparison_cell_units": 325,
+        "cells": 13,
+        "observations": 1659
+      },
+      "estimate": {
+        "estimate": -5.67535056540359,
+        "se": 7.501947326179253,
+        "df": 9,
+        "ci": [
+          -22.645934444254827,
+          11.295233313447646
+        ],
+        "p": 0.46867889174043476,
+        "treated_clusters": 10,
+        "clusters": 188
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 25,
+          "pre_mean": 71.6028,
+          "post_mean": 59.43946666666667,
+          "change": -12.16333333333333
+        },
+        "comparison": {
+          "surgeons": 325,
+          "pre_mean": 69.81271407556261,
+          "post_mean": 62.524861082580024,
+          "change": -7.287852992982595
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "predeal_verified_affiliation_only": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 109,
+        "exposed_practices": 22,
+        "exposed_neurosurgeons": 24,
+        "comparison_surgeons": 1960,
+        "comparison_cell_units": 3484,
+        "cells": 39,
+        "observations": 22365
+      },
+      "estimate": {
+        "estimate": 5.69992526103607,
+        "se": 2.0294156103758585,
+        "df": 21,
+        "ci": [
+          1.4795244609919598,
+          9.920326061080178
+        ],
+        "p": 0.01052339440757926,
+        "treated_clusters": 22,
+        "clusters": 958
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 109,
+          "pre_mean": 79.56022171253822,
+          "post_mean": 83.85835626911314,
+          "change": 4.298134556574925
+        },
+        "comparison": {
+          "surgeons": 3484,
+          "pre_mean": 81.76793182078316,
+          "post_mean": 79.61484319762413,
+          "change": -2.1530886231590265
+        }
+      },
+      "p_holm_within_family": 0.12628073289095113
+    },
+    "affiliation_index_practices_only": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 21,
+        "exposed_practices": 7,
+        "exposed_neurosurgeons": 21,
+        "comparison_surgeons": 992,
+        "comparison_cell_units": 993,
+        "cells": 10,
+        "observations": 5821
+      },
+      "estimate": {
+        "estimate": 0.8300157813666624,
+        "se": 4.023167513780366,
+        "df": 6,
+        "ci": [
+          -9.014320487243992,
+          10.674352049977319
+        ],
+        "p": 0.8433721464224144,
+        "treated_clusters": 7,
+        "clusters": 529
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 21,
+          "pre_mean": 85.37238095238095,
+          "post_mean": 85.38956349206349,
+          "change": 0.017182539682542325
+        },
+        "comparison": {
+          "surgeons": 993,
+          "pre_mean": 79.72292707395216,
+          "post_mean": 79.92242234008212,
+          "change": 0.19949526612998658
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "practice_mso_only": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 118,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 26,
+        "comparison_surgeons": 1981,
+        "comparison_cell_units": 3703,
+        "cells": 41,
+        "observations": 23679
+      },
+      "estimate": {
+        "estimate": 4.809495963607381,
+        "se": 2.285626251866922,
+        "df": 22,
+        "ci": [
+          0.06939723656614838,
+          9.549594690648613
+        ],
+        "p": 0.04701054473654361,
+        "treated_clusters": 23,
+        "clusters": 967
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 118,
+          "pre_mean": 79.79414548022599,
+          "post_mean": 83.82791666666667,
+          "change": 4.03377118644068
+        },
+        "comparison": {
+          "surgeons": 3703,
+          "pre_mean": 81.17671895349197,
+          "post_mean": 79.62496646435629,
+          "change": -1.5517524891357173
+        }
+      },
+      "note": "Excludes nine operator-linked professional-group surgeons; retains direct practice/linked-MSO acquisitions.",
+      "p_holm_within_family": 0.5171159921019798
+    },
+    "placebo_event_minus_2": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 87,
+        "exposed_practices": 18,
+        "exposed_neurosurgeons": 15,
+        "comparison_surgeons": 1538,
+        "comparison_cell_units": 2535,
+        "cells": 30,
+        "observations": 11343
+      },
+      "estimate": {
+        "estimate": 0.0974000521216968,
+        "se": 3.095435156248294,
+        "df": 17,
+        "ci": [
+          -6.433397260703858,
+          6.628197364947251
+        ],
+        "p": 0.975264616368944,
+        "treated_clusters": 18,
+        "clusters": 806
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 87,
+          "pre_mean": 77.66489463601535,
+          "post_mean": 82.04827586206896,
+          "change": 4.383381226053642
+        },
+        "comparison": {
+          "surgeons": 2535,
+          "pre_mean": 77.90273758573173,
+          "post_mean": 82.72788071543201,
+          "change": 4.825143129700294
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "not_yet_treated_comparators": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 22,
+        "exposed_practices": 6,
+        "exposed_neurosurgeons": 15,
+        "comparison_surgeons": 25,
+        "comparison_cell_units": 37,
+        "cells": 9,
+        "observations": 311
+      },
+      "estimate": {
+        "estimate": -9.290761092701764,
+        "se": 6.099609207138758,
+        "df": 5,
+        "ci": [
+          -24.970305725052675,
+          6.388783539649149
+        ],
+        "p": 0.18821512888603603,
+        "treated_clusters": 6,
+        "clusters": 11
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 22,
+          "pre_mean": 85.8701515151515,
+          "post_mean": 81.55068181818183,
+          "change": -4.319469696969695
+        },
+        "comparison": {
+          "surgeons": 37,
+          "pre_mean": 74.09781006493506,
+          "post_mean": 76.13953909632033,
+          "change": 2.0417290313852825
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "fixed_composition_k_minus1_plus1_plus2": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 73,
+        "exposed_practices": 18,
+        "exposed_neurosurgeons": 21,
+        "comparison_surgeons": 1400,
+        "comparison_cell_units": 2057,
+        "cells": 29,
+        "observations": 6390
+      },
+      "estimate": {
+        "estimate": 1.1383860176703073,
+        "se": 2.804920032459256,
+        "df": 17,
+        "ci": [
+          -4.7794779613889595,
+          7.056249996729575
+        ],
+        "p": 0.6899130642350881,
+        "treated_clusters": 18,
+        "clusters": 696
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 73,
+          "pre_mean": 85.22986301369863,
+          "post_mean": 82.45198630136987,
+          "change": -2.7778767123287667
+        },
+        "comparison": {
+          "surgeons": 2057,
+          "pre_mean": 84.30799861695509,
+          "post_mean": 80.39173588695601,
+          "change": -3.9162627299990893
+        }
+      },
+      "required_event_years": [
+        -1,
+        1,
+        2
+      ],
+      "p_holm_within_family": 1.0
+    },
+    "fixed_composition_k_minus1_plus1_to_plus4": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 14,
+        "exposed_practices": 7,
+        "exposed_neurosurgeons": 8,
+        "comparison_surgeons": 529,
+        "comparison_cell_units": 529,
+        "cells": 9,
+        "observations": 2715
+      },
+      "estimate": {
+        "estimate": -4.5545019633091055,
+        "se": 6.178338102277402,
+        "df": 6,
+        "ci": [
+          -19.672350686152257,
+          10.563346759534046
+        ],
+        "p": 0.48883002693096755,
+        "treated_clusters": 7,
+        "clusters": 283
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 14,
+          "pre_mean": 83.12928571428571,
+          "post_mean": 79.77910714285714,
+          "change": -3.3501785714285686
+        },
+        "comparison": {
+          "surgeons": 529,
+          "pre_mean": 82.70080794770544,
+          "post_mean": 83.90513133958594,
+          "change": 1.20432339188051
+        }
+      },
+      "required_event_years": [
+        -1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "p_holm_within_family": 1.0
+    },
+    "post_k1_k2": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 24,
+        "exposed_neurosurgeons": 31,
+        "comparison_surgeons": 2208,
+        "comparison_cell_units": 3986,
+        "cells": 45,
+        "observations": 18887
+      },
+      "estimate": {
+        "estimate": 4.999421279318866,
+        "se": 2.6062675879109714,
+        "df": 23,
+        "ci": [
+          -0.3920540012016618,
+          10.390896559839394
+        ],
+        "p": 0.06757932855013564,
+        "treated_clusters": 24,
+        "clusters": 1062
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 79.70719333333336,
+          "post_mean": 82.84779999999999,
+          "change": 3.140606666666669
+        },
+        "comparison": {
+          "surgeons": 3986,
+          "pre_mean": 81.68643844552341,
+          "post_mean": 80.14501142844945,
+          "change": -1.5414270170739433
+        }
+      },
+      "p_holm_within_family": 0.6757932855013564
+    },
+    "post_k3_k4": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 59,
+        "exposed_practices": 17,
+        "exposed_neurosurgeons": 19,
+        "comparison_surgeons": 1466,
+        "comparison_cell_units": 1758,
+        "cells": 22,
+        "observations": 6993
+      },
+      "estimate": {
+        "estimate": -0.29642645152706826,
+        "se": 2.2641247745312976,
+        "df": 16,
+        "ci": [
+          -5.096156559154094,
+          4.503303656099957
+        ],
+        "p": 0.8974681047053027,
+        "treated_clusters": 17,
+        "clusters": 757
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 59,
+          "pre_mean": 86.97734463276835,
+          "post_mean": 88.01271186440678,
+          "change": 1.0353672316384215
+        },
+        "comparison": {
+          "surgeons": 1758,
+          "pre_mean": 79.18578155966088,
+          "post_mean": 80.75431999575414,
+          "change": 1.5685384360932726
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "urology_window_2017_2020": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 28,
+        "exposed_practices": 9,
+        "exposed_neurosurgeons": 13,
+        "comparison_surgeons": 1092,
+        "comparison_cell_units": 1092,
+        "cells": 11,
+        "observations": 4268
+      },
+      "estimate": {
+        "estimate": 0.3116565647890263,
+        "se": 5.329049561483953,
+        "df": 8,
+        "ci": [
+          -11.977153760700917,
+          12.600466890278968
+        ],
+        "p": 0.9547986727953712,
+        "treated_clusters": 9,
+        "clusters": 559
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 28,
+          "pre_mean": 82.82196428571429,
+          "post_mean": 88.34732142857145,
+          "change": 5.525357142857144
+        },
+        "comparison": {
+          "surgeons": 1092,
+          "pre_mean": 82.15256262445105,
+          "post_mean": 86.3490469730533,
+          "change": 4.1964843486022465
+        }
+      },
+      "p_holm_within_family": 1.0
+    },
+    "leave_one_parent_out": {
+      "status": "range_only",
+      "min": 3.516288536384317,
+      "max": 5.575798946762852,
+      "note": "All 24 parent exclusions reported, not a hypothesis-test family."
+    }
+  },
+  "specialty_interaction": {
+    "neurosurgery_minus_orthopedic": {
+      "estimate": -5.1408091301602,
+      "se": 3.8192009384295895,
+      "df": 23,
+      "ci": [
+        -13.041428217162142,
+        2.7598099568417425
+      ],
+      "p": 0.19140698472096807,
+      "treated_clusters": 24,
+      "clusters": 1083
+    }
+  },
+  "leave_one_parent_out": {
+    "Aligned Orthopedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 120,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 30,
+        "comparison_surgeons": 2235,
+        "comparison_cell_units": 3937,
+        "cells": 42,
+        "observations": 24771
+      },
+      "estimate": {
+        "estimate": 5.575798946762852,
+        "se": 2.0553576961557627,
+        "df": 22,
+        "ci": [
+          1.313247975796151,
+          9.838349917729552
+        ],
+        "p": 0.012707647701938005,
+        "treated_clusters": 23,
+        "clusters": 1076
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 120,
+          "pre_mean": 79.95022222222222,
+          "post_mean": 85.09092361111111,
+          "change": 5.140701388888891
+        },
+        "comparison": {
+          "surgeons": 3937,
+          "pre_mean": 81.629098497938,
+          "post_mean": 80.48061676998373,
+          "change": -1.1484817279542867
+        }
+      }
+    },
+    "American Orthopedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2206,
+        "comparison_cell_units": 4046,
+        "cells": 44,
+        "observations": 25378
+      },
+      "estimate": {
+        "estimate": 5.401715058335451,
+        "se": 2.0740318731748504,
+        "df": 22,
+        "ci": [
+          1.100436214583592,
+          9.70299390208731
+        ],
+        "p": 0.016185111734091106,
+        "treated_clusters": 23,
+        "clusters": 1056
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 80.30273333333334,
+          "post_mean": 84.98495333333332,
+          "change": 4.682220000000001
+        },
+        "comparison": {
+          "surgeons": 4046,
+          "pre_mean": 81.761350301336,
+          "post_mean": 80.51756186398165,
+          "change": -1.2437884373543289
+        }
+      }
+    },
+    "BASS Privia MSO / Privia Health": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 32,
+        "comparison_surgeons": 1971,
+        "comparison_cell_units": 3809,
+        "cells": 44,
+        "observations": 23797
+      },
+      "estimate": {
+        "estimate": 4.563221459267262,
+        "se": 2.2203543767642606,
+        "df": 22,
+        "ci": [
+          -0.04151168390696558,
+          9.16795460244149
+        ],
+        "p": 0.05192447634494026,
+        "treated_clusters": 23,
+        "clusters": 933
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 80.08709656084656,
+          "post_mean": 84.12844576719576,
+          "change": 4.041349206349208
+        },
+        "comparison": {
+          "surgeons": 3809,
+          "pre_mean": 81.53528879833112,
+          "post_mean": 80.29825825557172,
+          "change": -1.2370305427593926
+        }
+      }
+    },
+    "Bluegrass Orthopaedics": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2244,
+        "comparison_cell_units": 4040,
+        "cells": 44,
+        "observations": 25296
+      },
+      "estimate": {
+        "estimate": 3.8228801394466347,
+        "se": 2.1824968676053573,
+        "df": 22,
+        "ci": [
+          -0.7033413350650135,
+          8.349101613958283
+        ],
+        "p": 0.0937719165352632,
+        "treated_clusters": 23,
+        "clusters": 1078
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 80.65797333333333,
+          "post_mean": 84.29545999999999,
+          "change": 3.637486666666668
+        },
+        "comparison": {
+          "surgeons": 4040,
+          "pre_mean": 81.28965397949689,
+          "post_mean": 80.18400428661649,
+          "change": -1.1056496928804118
+        }
+      }
+    },
+    "Florida Orthopaedic Institute": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 123,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 32,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25703
+      },
+      "estimate": {
+        "estimate": 4.685951714379357,
+        "se": 2.242198583750425,
+        "df": 22,
+        "ci": [
+          0.03591645864680171,
+          9.335986970111911
+        ],
+        "p": 0.04840223984506801,
+        "treated_clusters": 23,
+        "clusters": 1082
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 123,
+          "pre_mean": 79.71913956639567,
+          "post_mean": 83.69706639566394,
+          "change": 3.9779268292682937
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 81.66835794144254,
+          "post_mean": 80.21564664357501,
+          "change": -1.452711297867515
+        }
+      }
+    },
+    "Growth Orthopedics": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25712
+      },
+      "estimate": {
+        "estimate": 4.900146574873457,
+        "se": 2.1859866020399252,
+        "df": 22,
+        "ci": [
+          0.36668783410382133,
+          9.433605315643092
+        ],
+        "p": 0.035399229618534214,
+        "treated_clusters": 23,
+        "clusters": 1082
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 79.82169973544974,
+          "post_mean": 84.18396164021162,
+          "change": 4.362261904761906
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 81.50483424002836,
+          "post_mean": 80.27869059287688,
+          "change": -1.226143647151476
+        }
+      }
+    },
+    "HOPCo": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 108,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 29,
+        "comparison_surgeons": 2198,
+        "comparison_cell_units": 3581,
+        "cells": 39,
+        "observations": 22254
+      },
+      "estimate": {
+        "estimate": 3.516288536384317,
+        "se": 2.4266449883723684,
+        "df": 22,
+        "ci": [
+          -1.516265150365415,
+          8.548842223134049
+        ],
+        "p": 0.16143353818062817,
+        "treated_clusters": 23,
+        "clusters": 1061
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 108,
+          "pre_mean": 79.96533950617284,
+          "post_mean": 83.80337191358024,
+          "change": 3.8380324074074084
+        },
+        "comparison": {
+          "surgeons": 3581,
+          "pre_mean": 81.61465244975072,
+          "post_mean": 80.96903877491346,
+          "change": -0.6456136748372816
+        }
+      }
+    },
+    "Health Plus Management": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 4098,
+        "cells": 45,
+        "observations": 25713
+      },
+      "estimate": {
+        "estimate": 4.927570024035351,
+        "se": 2.1741418075061514,
+        "df": 22,
+        "ci": [
+          0.4186758836441653,
+          9.436464164426535
+        ],
+        "p": 0.033603560024783305,
+        "treated_clusters": 23,
+        "clusters": 1082
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 79.90737433862435,
+          "post_mean": 84.39213624338625,
+          "change": 4.484761904761906
+        },
+        "comparison": {
+          "surgeons": 4098,
+          "pre_mean": 81.47625607926015,
+          "post_mean": 80.2233352941984,
+          "change": -1.2529207850617439
+        }
+      }
+    },
+    "Kelsey-Seybold Management Services": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 124,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 30,
+        "comparison_surgeons": 2255,
+        "comparison_cell_units": 3910,
+        "cells": 44,
+        "observations": 24484
+      },
+      "estimate": {
+        "estimate": 4.866079968625104,
+        "se": 2.228588839046633,
+        "df": 22,
+        "ci": [
+          0.24426959589479313,
+          9.487890341355413
+        ],
+        "p": 0.03995138539757544,
+        "treated_clusters": 23,
+        "clusters": 1081
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 124,
+          "pre_mean": 79.60844758064516,
+          "post_mean": 83.85241263440861,
+          "change": 4.243965053763442
+        },
+        "comparison": {
+          "surgeons": 3910,
+          "pre_mean": 81.64734044332228,
+          "post_mean": 80.34299343832954,
+          "change": -1.3043470049927435
+        }
+      }
+    },
+    "LifePoint Health": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 118,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 26,
+        "comparison_surgeons": 1981,
+        "comparison_cell_units": 3703,
+        "cells": 41,
+        "observations": 23679
+      },
+      "estimate": {
+        "estimate": 4.809495963607381,
+        "se": 2.285626251866922,
+        "df": 22,
+        "ci": [
+          0.06939723656614838,
+          9.549594690648613
+        ],
+        "p": 0.04701054473654361,
+        "treated_clusters": 23,
+        "clusters": 967
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 118,
+          "pre_mean": 79.79414548022599,
+          "post_mean": 83.82791666666667,
+          "change": 4.03377118644068
+        },
+        "comparison": {
+          "surgeons": 3703,
+          "pre_mean": 81.17671895349197,
+          "post_mean": 79.62496646435629,
+          "change": -1.5517524891357173
+        }
+      }
+    },
+    "M2 Orthopedics": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2251,
+        "comparison_cell_units": 4006,
+        "cells": 44,
+        "observations": 25050
+      },
+      "estimate": {
+        "estimate": 4.687913213945896,
+        "se": 2.2185182195833635,
+        "df": 22,
+        "ci": [
+          0.08698802769756941,
+          9.288838400194223
+        ],
+        "p": 0.04617017863323261,
+        "treated_clusters": 23,
+        "clusters": 1079
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 80.00217592592595,
+          "post_mean": 84.21427910052908,
+          "change": 4.212103174603175
+        },
+        "comparison": {
+          "surgeons": 4006,
+          "pre_mean": 81.4759464255835,
+          "post_mean": 80.27532850019414,
+          "change": -1.2006179253893414
+        }
+      }
+    },
+    "Mississippi Sports Medicine and Orthopaedic Center": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2232,
+        "comparison_cell_units": 4072,
+        "cells": 44,
+        "observations": 25538
+      },
+      "estimate": {
+        "estimate": 5.143087565888633,
+        "se": 2.1618937601940744,
+        "df": 22,
+        "ci": [
+          0.6595943209523787,
+          9.626580810824887
+        ],
+        "p": 0.026463975138088323,
+        "treated_clusters": 23,
+        "clusters": 1067
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 79.85359333333335,
+          "post_mean": 84.26563333333333,
+          "change": 4.412040000000001
+        },
+        "comparison": {
+          "surgeons": 4072,
+          "pre_mean": 81.72782773723343,
+          "post_mean": 80.38401365885345,
+          "change": -1.34381407837997
+        }
+      }
+    },
+    "Norwood Clinic": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 31,
+        "comparison_surgeons": 2257,
+        "comparison_cell_units": 4064,
+        "cells": 44,
+        "observations": 25518
+      },
+      "estimate": {
+        "estimate": 4.662309916493339,
+        "se": 2.2192332189339123,
+        "df": 22,
+        "ci": [
+          0.05990191234833997,
+          9.264717920638336
+        ],
+        "p": 0.047334267081102326,
+        "treated_clusters": 23,
+        "clusters": 1081
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 79.82791333333333,
+          "post_mean": 83.96519333333333,
+          "change": 4.137280000000001
+        },
+        "comparison": {
+          "surgeons": 4064,
+          "pre_mean": 81.54038010525753,
+          "post_mean": 80.29153770108572,
+          "change": -1.248842404171825
+        }
+      }
+    },
+    "Novum Orthopedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 124,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2258,
+        "comparison_cell_units": 3918,
+        "cells": 44,
+        "observations": 24515
+      },
+      "estimate": {
+        "estimate": 4.586664348019258,
+        "se": 2.2536629813197244,
+        "df": 22,
+        "ci": [
+          -0.08714661307201155,
+          9.260475309110527
+        ],
+        "p": 0.054053309744642716,
+        "treated_clusters": 23,
+        "clusters": 1082
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 124,
+          "pre_mean": 79.99925403225807,
+          "post_mean": 84.18539650537635,
+          "change": 4.186142473118281
+        },
+        "comparison": {
+          "surgeons": 3918,
+          "pre_mean": 81.59419894999299,
+          "post_mean": 80.3532678903725,
+          "change": -1.2409310596204666
+        }
+      }
+    },
+    "OrthoAlliance": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 116,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 31,
+        "comparison_surgeons": 2087,
+        "comparison_cell_units": 3813,
+        "cells": 41,
+        "observations": 23937
+      },
+      "estimate": {
+        "estimate": 4.360905427926836,
+        "se": 2.378515082979175,
+        "df": 22,
+        "ci": [
+          -0.5718329442671823,
+          9.293643800120854
+        ],
+        "p": 0.08030079425103757,
+        "treated_clusters": 23,
+        "clusters": 1023
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 116,
+          "pre_mean": 79.6359051724138,
+          "post_mean": 83.68377155172413,
+          "change": 4.047866379310347
+        },
+        "comparison": {
+          "surgeons": 3813,
+          "pre_mean": 80.80602762843175,
+          "post_mean": 80.02179865682942,
+          "change": -0.7842289716023357
+        }
+      }
+    },
+    "Orthopedic Care Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2240,
+        "comparison_cell_units": 4037,
+        "cells": 44,
+        "observations": 25334
+      },
+      "estimate": {
+        "estimate": 4.865564970864718,
+        "se": 2.2084908453845182,
+        "df": 22,
+        "ci": [
+          0.28543528590917333,
+          9.445694655820263
+        ],
+        "p": 0.038357525628579935,
+        "treated_clusters": 23,
+        "clusters": 1074
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 79.89351333333333,
+          "post_mean": 84.09961333333334,
+          "change": 4.206100000000001
+        },
+        "comparison": {
+          "surgeons": 4037,
+          "pre_mean": 81.56453115664603,
+          "post_mean": 80.22410328230991,
+          "change": -1.3404278743361322
+        }
+      }
+    },
+    "Precision Orthopedics & Sports Medicine": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2240,
+        "comparison_cell_units": 4027,
+        "cells": 44,
+        "observations": 25337
+      },
+      "estimate": {
+        "estimate": 4.978182144719121,
+        "se": 2.1625916676839347,
+        "df": 22,
+        "ci": [
+          0.49324152823575673,
+          9.463122761202484
+        ],
+        "p": 0.031179718236903537,
+        "treated_clusters": 23,
+        "clusters": 1077
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 79.78044312169312,
+          "post_mean": 84.30300925925924,
+          "change": 4.522566137566139
+        },
+        "comparison": {
+          "surgeons": 4027,
+          "pre_mean": 81.47084821048779,
+          "post_mean": 80.21011689845815,
+          "change": -1.2607313120296342
+        }
+      }
+    },
+    "Precision Spine Care / Roseland Management": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 124,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 30,
+        "comparison_surgeons": 2220,
+        "comparison_cell_units": 3901,
+        "cells": 44,
+        "observations": 24695
+      },
+      "estimate": {
+        "estimate": 5.216331231227035,
+        "se": 2.1152707016210863,
+        "df": 22,
+        "ci": [
+          0.8295282918086127,
+          9.603134170645458
+        ],
+        "p": 0.02193118965415308,
+        "treated_clusters": 23,
+        "clusters": 1060
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 124,
+          "pre_mean": 79.57209005376345,
+          "post_mean": 84.3191061827957,
+          "change": 4.74701612903226
+        },
+        "comparison": {
+          "surgeons": 3901,
+          "pre_mean": 81.7940679549587,
+          "post_mean": 80.36013760755982,
+          "change": -1.4339303473989113
+        }
+      }
+    },
+    "Spire Orthopedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 112,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 29,
+        "comparison_surgeons": 2188,
+        "comparison_cell_units": 3799,
+        "cells": 40,
+        "observations": 23622
+      },
+      "estimate": {
+        "estimate": 4.69749050346659,
+        "se": 2.4856519475504713,
+        "df": 22,
+        "ci": [
+          -0.4574361267415208,
+          9.852417133674702
+        ],
+        "p": 0.07202783903572309,
+        "treated_clusters": 23,
+        "clusters": 1051
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 112,
+          "pre_mean": 81.29088541666667,
+          "post_mean": 84.73490327380954,
+          "change": 3.4440178571428595
+        },
+        "comparison": {
+          "surgeons": 3799,
+          "pre_mean": 81.14323187817955,
+          "post_mean": 79.75778682230657,
+          "change": -1.3854450558729665
+        }
+      }
+    },
+    "Summit Health / WP CityMD Topco": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 125,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2191,
+        "comparison_cell_units": 4029,
+        "cells": 44,
+        "observations": 25344
+      },
+      "estimate": {
+        "estimate": 4.231096411304313,
+        "se": 2.221946937776885,
+        "df": 22,
+        "ci": [
+          -0.3769395012629895,
+          8.839132323871617
+        ],
+        "p": 0.07004024850773176,
+        "treated_clusters": 23,
+        "clusters": 1057
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 125,
+          "pre_mean": 80.53999333333336,
+          "post_mean": 83.88303333333333,
+          "change": 3.3430400000000016
+        },
+        "comparison": {
+          "surgeons": 4029,
+          "pre_mean": 81.28718769264033,
+          "post_mean": 80.10174702191551,
+          "change": -1.185440670724823
+        }
+      }
+    },
+    "Triumph Orthopedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 126,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2255,
+        "comparison_cell_units": 3989,
+        "cells": 44,
+        "observations": 25025
+      },
+      "estimate": {
+        "estimate": 4.262176347078321,
+        "se": 2.2214855282168102,
+        "df": 22,
+        "ci": [
+          -0.34490266062906993,
+          8.869255354785711
+        ],
+        "p": 0.06810103010141913,
+        "treated_clusters": 23,
+        "clusters": 1081
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 126,
+          "pre_mean": 80.28356481481482,
+          "post_mean": 84.13681878306878,
+          "change": 3.8532539682539704
+        },
+        "comparison": {
+          "surgeons": 3989,
+          "pre_mean": 81.4410275852412,
+          "post_mean": 80.2567573604964,
+          "change": -1.184270224744797
+        }
+      }
+    },
+    "Tucson Orthopaedic Institute": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 122,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 33,
+        "comparison_surgeons": 2238,
+        "comparison_cell_units": 4037,
+        "cells": 44,
+        "observations": 25323
+      },
+      "estimate": {
+        "estimate": 5.196850643128965,
+        "se": 2.1982079995663417,
+        "df": 22,
+        "ci": [
+          0.6380462751771452,
+          9.755655011080783
+        ],
+        "p": 0.027318164499832296,
+        "treated_clusters": 23,
+        "clusters": 1075
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 122,
+          "pre_mean": 79.26294398907102,
+          "post_mean": 83.76049863387976,
+          "change": 4.497554644808744
+        },
+        "comparison": {
+          "surgeons": 4037,
+          "pre_mean": 81.72456242242501,
+          "post_mean": 80.40464801921713,
+          "change": -1.3199144032078622
+        }
+      }
+    },
+    "U.S. Orthopaedic Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 122,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 31,
+        "comparison_surgeons": 2241,
+        "comparison_cell_units": 4008,
+        "cells": 43,
+        "observations": 25076
+      },
+      "estimate": {
+        "estimate": 4.8566422212460525,
+        "se": 2.2500480831697645,
+        "df": 22,
+        "ci": [
+          0.19032810007120116,
+          9.522956342420905
+        ],
+        "p": 0.04206894521359962,
+        "treated_clusters": 23,
+        "clusters": 1075
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 122,
+          "pre_mean": 79.35280054644808,
+          "post_mean": 83.95234289617486,
+          "change": 4.599542349726777
+        },
+        "comparison": {
+          "surgeons": 4008,
+          "pre_mean": 81.57927945670973,
+          "post_mean": 80.40879306231233,
+          "change": -1.1704863943974002
+        }
+      }
+    },
+    "United Musculoskeletal Partners": {
+      "status": "estimated",
+      "counts": {
+        "exposed_surgeons": 102,
+        "exposed_practices": 23,
+        "exposed_neurosurgeons": 32,
+        "comparison_surgeons": 2213,
+        "comparison_cell_units": 3712,
+        "cells": 41,
+        "observations": 23239
+      },
+      "estimate": {
+        "estimate": 3.869746685928367,
+        "se": 2.725724528831702,
+        "df": 22,
+        "ci": [
+          -1.7830600049410887,
+          9.522553376797823
+        ],
+        "p": 0.16970688936371117,
+        "treated_clusters": 23,
+        "clusters": 1071
+      },
+      "group_means": {
+        "exposed": {
+          "surgeons": 102,
+          "pre_mean": 78.77620915032679,
+          "post_mean": 82.63956699346404,
+          "change": 3.8633578431372566
+        },
+        "comparison": {
+          "surgeons": 3712,
+          "pre_mean": 80.98433202022386,
+          "post_mean": 79.96082439916627,
+          "change": -1.0235076210576026
+        }
+      }
+    }
+  }
+}
