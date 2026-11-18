@@ -16,7 +16,7 @@ python verify_outputs.py
 
 The prepared primary stack and supporting context are available from the corresponding author on reasonable request, subject to source terms. These runners reproduce model fitting from the prepared inputs. They do not download the national CMS files or reconstruct the transaction and affiliation ledger from proprietary records.
 
-`analysis/` implements the fixed effects, comparison weights, and practice-cluster CR1/t inference. Supporting analyses cover five secondary outcomes, specialty-specific estimates and a pooled interaction, baseline balance and missingness, thirteen robustness comparisons, and all parent omissions. Each restriction reconstructs eligibility and weights. The operative code list is in `config/`. Aggregate reference outputs are in `expected/`; generated outputs are written to `results/`. Verification compares numerical results at absolute tolerance 1e-9.
+`analysis/` implements the fixed effects, comparison weights, and practice-cluster CR1/t inference. Supporting analyses cover five secondary outcomes, specialty-specific estimates and a pooled interaction, baseline balance and missingness, thirteen robustness comparisons, and all parent omissions. Each restriction reconstructs eligibility and weights. Holm adjustment is applied within the five secondary outcomes and two specialty comparisons. Robustness and parent-omission analyses use nominal P values. The operative code list is in `config/`. Aggregate reference outputs are in `expected/`; generated outputs are written to `results/`. Verification compares numerical results at absolute tolerance 1e-9.
 
 ## Data access
 

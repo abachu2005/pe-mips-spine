@@ -351,8 +351,7 @@
           "post_mean": 79.55823797159603,
           "change": -3.5682929620460233
         }
-      },
-      "p_holm_within_family": 0.06146941730813291
+      }
     },
     "exclude_2020_2021_and_hardship": {
       "status": "estimated",
@@ -390,8 +389,7 @@
           "post_mean": 78.94743498840703,
           "change": -3.4277022070191974
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "individual_reporting_only": {
       "status": "estimated",
@@ -429,8 +427,7 @@
           "post_mean": 62.524861082580024,
           "change": -7.287852992982595
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "predeal_verified_affiliation_only": {
       "status": "estimated",
@@ -468,8 +465,7 @@
           "post_mean": 79.61484319762413,
           "change": -2.1530886231590265
         }
-      },
-      "p_holm_within_family": 0.12628073289095113
+      }
     },
     "affiliation_index_practices_only": {
       "status": "estimated",
@@ -507,8 +503,7 @@
           "post_mean": 79.92242234008212,
           "change": 0.19949526612998658
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "practice_mso_only": {
       "status": "estimated",
@@ -547,8 +542,7 @@
           "change": -1.5517524891357173
         }
       },
-      "note": "Excludes nine operator-linked professional-group surgeons; retains direct practice/linked-MSO acquisitions.",
-      "p_holm_within_family": 0.5171159921019798
+      "note": "Excludes nine operator-linked professional-group surgeons; retains direct practice/linked-MSO acquisitions."
     },
     "placebo_event_minus_2": {
       "status": "estimated",
@@ -586,8 +580,7 @@
           "post_mean": 82.72788071543201,
           "change": 4.825143129700294
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "not_yet_treated_comparators": {
       "status": "estimated",
@@ -625,8 +618,7 @@
           "post_mean": 76.13953909632033,
           "change": 2.0417290313852825
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "fixed_composition_k_minus1_plus1_plus2": {
       "status": "estimated",
@@ -669,8 +661,7 @@
         -1,
         1,
         2
-      ],
-      "p_holm_within_family": 1.0
+      ]
     },
     "fixed_composition_k_minus1_plus1_to_plus4": {
       "status": "estimated",
@@ -715,8 +706,7 @@
         2,
         3,
         4
-      ],
-      "p_holm_within_family": 1.0
+      ]
     },
     "post_k1_k2": {
       "status": "estimated",
@@ -754,8 +744,7 @@
           "post_mean": 80.14501142844945,
           "change": -1.5414270170739433
         }
-      },
-      "p_holm_within_family": 0.6757932855013564
+      }
     },
     "post_k3_k4": {
       "status": "estimated",
@@ -793,8 +782,7 @@
           "post_mean": 80.75431999575414,
           "change": 1.5685384360932726
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "urology_window_2017_2020": {
       "status": "estimated",
@@ -832,8 +820,7 @@
           "post_mean": 86.3490469730533,
           "change": 4.1964843486022465
         }
-      },
-      "p_holm_within_family": 1.0
+      }
     },
     "leave_one_parent_out": {
       "status": "range_only",

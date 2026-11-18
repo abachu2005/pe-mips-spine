@@ -189,7 +189,7 @@ def run(root):
         for i, (key, p) in enumerate(items):
             previous = max(previous, min(1.0, p * (len(items)-i)))
             block[key]["p_holm_within_family"] = previous
-    for family in ("secondary", "specialty", "robustness"):
+    for family in ("secondary", "specialty"):
         block = result[family]
         holm(block)
     result.pop("specifications", None)
